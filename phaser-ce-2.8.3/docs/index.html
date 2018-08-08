@@ -1,0 +1,4224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>API · Phaser CE</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link type="text/css" rel="stylesheet" href="styles/default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	
+	<link type="text/css" rel="stylesheet" href="styles/site.cerulean.css">
+	
+
+	<script src="https://use.typekit.net/fmc0gtt.js"></script>
+	<script>Typekit.load()</script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<div class="navbar navbar-fixed-top navbar-inverse">
+		<div style="position: absolute; width: 143px; height: 31px; right: 10px; top: 10px; z-index: 1050"><a href="http://phaser.io"><img src="img/phaser.png" border="0" /></a></div>
+		<div class="navbar-inner">
+			<a class="brand" href="index.html">Phaser API</a>
+			<ul class="nav">
+                <li>
+                    <a href="https://github.com/photonstorm/phaser-ce/blob/master/README.md">
+						<i class="icon-info-sign icon-white"></i>
+						Read Me
+					</a>
+                </li>
+                <li>
+                    <a href="https://github.com/photonstorm/phaser-ce/blob/master/CHANGELOG.md">
+						<i class="icon-list icon-white"></i>
+						Change Log
+					</a>
+                </li>
+				
+				<li class="dropdown">
+					<a href="namespaces.list.html" class="dropdown-toggle" data-toggle="dropdown">Namespaces<b
+						class="caret"></b></a>
+
+					<ul class="dropdown-menu ">
+						
+						<li class="class-depth-0">
+							<a href="Phaser.html">Phaser</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="PIXI.html">PIXI</a>
+						</li>
+						
+
+					</ul>
+				</li>
+				
+				<li class="dropdown">
+					<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b
+						class="caret"></b></a>
+
+					<ul class="dropdown-menu ">
+						
+						<li class="class-depth-0">
+							<a href="CreatureShader.html">CreatureShader</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="EarCut.html">EarCut</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="Event.html">Event</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="EventTarget.html">EventTarget</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Animation.html">Animation</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.AnimationManager.html">AnimationManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.AnimationParser.html">AnimationParser</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ArraySet.html">ArraySet</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ArrayUtils.html">ArrayUtils</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.AudioSprite.html">AudioSprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.BitmapData.html">BitmapData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.BitmapText.html">BitmapText</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Bullet.html">Bullet</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Button.html">Button</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Cache.html">Cache</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Camera.html">Camera</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Canvas.html">Canvas</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.CanvasPool.html">CanvasPool</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Circle.html">Circle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Color.html">Color</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Angle.html">Angle</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Animation.html">Animation</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.AutoCull.html">AutoCull</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Bounds.html">Bounds</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.BringToTop.html">BringToTop</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Core.html">Core</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Crop.html">Crop</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Delta.html">Delta</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Destroy.html">Destroy</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.FixedToCamera.html">FixedToCamera</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Health.html">Health</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.InCamera.html">InCamera</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.InputEnabled.html">InputEnabled</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.InWorld.html">InWorld</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.LifeSpan.html">LifeSpan</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.LoadTexture.html">LoadTexture</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Overlap.html">Overlap</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.PhysicsBody.html">PhysicsBody</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Reset.html">Reset</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.ScaleMinMax.html">ScaleMinMax</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Component.Smoothed.html">Smoothed</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Create.html">Create</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Creature.html">Creature</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Device.html">Device</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.DeviceButton.html">DeviceButton</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.DOM.html">DOM</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Easing.html">Easing</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Back.html">Back</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Bounce.html">Bounce</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Circular.html">Circular</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Cubic.html">Cubic</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Elastic.html">Elastic</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Exponential.html">Exponential</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Linear.html">Linear</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Quadratic.html">Quadratic</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Quartic.html">Quartic</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Quintic.html">Quintic</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Easing.Sinusoidal.html">Sinusoidal</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Ellipse.html">Ellipse</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Events.html">Events</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Filter.html">Filter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.FlexGrid.html">FlexGrid</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.FlexLayer.html">FlexLayer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Frame.html">Frame</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.FrameData.html">FrameData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Game.html">Game</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.GameObjectCreator.html">GameObjectCreator</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.GameObjectFactory.html">GameObjectFactory</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Gamepad.html">Gamepad</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Graphics.html">Graphics</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Group.html">Group</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Hermite.html">Hermite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Image.html">Image</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ImageCollection.html">ImageCollection</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Input.html">Input</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.InputHandler.html">InputHandler</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Key.html">Key</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Keyboard.html">Keyboard</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.KeyCode.html">KeyCode</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Line.html">Line</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.LinkedList.html">LinkedList</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Loader.html">Loader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.LoaderParser.html">LoaderParser</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Math.html">Math</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Matrix.html">Matrix</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Mouse.html">Mouse</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.MSPointer.html">MSPointer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Net.html">Net</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Particle.html">Particle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Particles.html">Particles</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Particles.Arcade.html">Arcade</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Particles.Arcade.Emitter.html">Emitter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Path.html">Path</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.PathFollower.html">PathFollower</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.PathPoint.html">PathPoint</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Physics.html">Physics</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Physics.Arcade.html">Arcade</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Arcade.Body.html">Body</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Arcade.TilemapCollision.html">TilemapCollision</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Physics.Ninja.html">Ninja</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Ninja.AABB.html">AABB</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Ninja.Body.html">Body</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Ninja.Circle.html">Circle</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.Ninja.Tile.html">Tile</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Physics.P2.html">P2</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.Body.html">Body</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.BodyDebug.html">BodyDebug</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.CollisionGroup.html">CollisionGroup</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.ContactMaterial.html">ContactMaterial</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.DistanceConstraint.html">DistanceConstraint</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.FixtureList.html">FixtureList</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.GearConstraint.html">GearConstraint</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.InversePointProxy.html">InversePointProxy</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.LockConstraint.html">LockConstraint</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.Material.html">Material</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.PointProxy.html">PointProxy</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.PrismaticConstraint.html">PrismaticConstraint</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.RevoluteConstraint.html">RevoluteConstraint</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.RotationalSpring.html">RotationalSpring</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Physics.P2.Spring.html">Spring</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Plugin.html">Plugin</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.AStar.html">AStar</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Plugin.AStar.AStarNode.html">AStarNode</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Plugin.AStar.AStarPath.html">AStarPath</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.ColorHarmony.html">ColorHarmony</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.CSS3Filters.html">CSS3Filters</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.Juicy.html">Juicy</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Plugin.Juicy.ScreenFlash.html">ScreenFlash</a>
+						</li>
+						
+						<li class="class-depth-3">
+							<a href="Phaser.Plugin.Juicy.Trail.html">Trail</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.KineticScrolling.html">KineticScrolling</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.PathManager.html">PathManager</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.SamplePlugin.html">SamplePlugin</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.TilemapWalker.html">TilemapWalker</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.VirtualJoystick.html">VirtualJoystick</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Plugin.Webcam.html">Webcam</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.PluginManager.html">PluginManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Point.html">Point</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Pointer.html">Pointer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.PointerMode.html">PointerMode</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Polygon.html">Polygon</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.QuadTree.html">QuadTree</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.RandomDataGenerator.html">RandomDataGenerator</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Rectangle.html">Rectangle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.RenderTexture.html">RenderTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.RequestAnimationFrame.html">RequestAnimationFrame</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.RetroFont.html">RetroFont</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Rope.html">Rope</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.RoundedRectangle.html">RoundedRectangle</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.ScaleManager.html">ScaleManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Signal.html">Signal</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.SignalBinding.html">SignalBinding</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.SinglePad.html">SinglePad</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Sound.html">Sound</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.SoundManager.html">SoundManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Sprite.html">Sprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.SpriteBatch.html">SpriteBatch</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Stage.html">Stage</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.State.html">State</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.StateManager.html">StateManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Text.html">Text</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Tile.html">Tile</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Tilemap.html">Tilemap</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TilemapLayer.html">TilemapLayer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TilemapParser.html">TilemapParser</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Tileset.html">Tileset</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TileSprite.html">TileSprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Time.html">Time</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Timer.html">Timer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TimerEvent.html">TimerEvent</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Touch.html">Touch</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Tween.html">Tween</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TweenData.html">TweenData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.TweenManager.html">TweenManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Utils.html">Utils</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="Phaser.Utils.Debug.html">Debug</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Video.html">Video</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.Weapon.html">Weapon</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="Phaser.World.html">World</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.BaseTexture.html">BaseTexture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasBuffer.html">CanvasBuffer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasGraphics.html">CanvasGraphics</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasMaskManager.html">CanvasMaskManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasRenderer.html">CanvasRenderer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.CanvasTinter.html">CanvasTinter</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.ComplexPrimitiveShader.html">ComplexPrimitiveShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DisplayObject.html">DisplayObject</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.DisplayObjectContainer.html">DisplayObjectContainer</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.FilterTexture.html">FilterTexture</a>
+						</li>
+						
+						<li class="class-depth-2">
+							<a href="PIXI.Phaser.GraphicsData.html">Phaser.GraphicsData</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PIXI.html">PIXI</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PixiFastShader.html">PixiFastShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PixiShader.html">PixiShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.PrimitiveShader.html">PrimitiveShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Sprite.html">Sprite</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.StripShader.html">StripShader</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.Texture.html">Texture</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLBlendModeManager.html">WebGLBlendModeManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLFastSpriteBatch.html">WebGLFastSpriteBatch</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLFilterManager.html">WebGLFilterManager</a>
+						</li>
+						
+						<li class="class-depth-1">
+							<a href="PIXI.WebGLRenderer.html">WebGLRenderer</a>
+						</li>
+						
+
+					</ul>
+				</li>
+				
+				<li class="dropdown">
+					<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b
+						class="caret"></b></a>
+
+					<ul class="dropdown-menu ">
+						
+						<li class="class-depth-0">
+							<a href="global.html#destroy">destroy</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="global.html#init">init</a>
+						</li>
+						
+						<li class="class-depth-0">
+							<a href="global.html#set">set</a>
+						</li>
+						
+
+					</ul>
+				</li>
+				
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Core<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Game.html">Game</a></li>
+						<li class="class-depth-1"><a href="Phaser.Group.html">Group</a></li>
+						<li class="class-depth-1"><a href="Phaser.World.html">World</a></li>
+						<li class="class-depth-1"><a href="Phaser.Loader.html">Loader</a></li>
+						<li class="class-depth-1"><a href="Phaser.Cache.html">Cache</a></li>
+						<li class="class-depth-1"><a href="Phaser.Time.html">Time</a></li>
+						<li class="class-depth-1"><a href="Phaser.Camera.html">Camera</a></li>
+						<li class="class-depth-1"><a href="Phaser.StateManager.html">State Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.TweenManager.html">Tween Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.SoundManager.html">Sound Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.Input.html">Input Manager</a></li>
+						<li class="class-depth-1"><a href="Phaser.ScaleManager.html">Scale Manager</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Game Objects<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.GameObjectFactory.html">Factory (game.add)</a></li>
+						<li class="class-depth-1"><a href="Phaser.GameObjectCreator.html">Creator (game.make)</a></li>
+						<li class="class-depth-1"><a href="Phaser.Sprite.html">Sprite</a></li>
+						<li class="class-depth-1"><a href="Phaser.Image.html">Image</a></li>
+						<li class="class-depth-1"><a href="Phaser.Sound.html">Sound</a></li>
+						<li class="class-depth-1"><a href="Phaser.Video.html">Video</a></li>
+						<li class="class-depth-1"><a href="Phaser.Particles.Arcade.Emitter.html">Particle Emitter</a></li>
+						<li class="class-depth-1"><a href="Phaser.Particle.html">Particle</a></li>
+						<li class="class-depth-1"><a href="Phaser.Text.html">Text</a></li>
+						<li class="class-depth-1"><a href="Phaser.Tween.html">Tween</a></li>
+						<li class="class-depth-1"><a href="Phaser.BitmapText.html">BitmapText</a></li>
+						<li class="class-depth-1"><a href="Phaser.Tilemap.html">Tilemap</a></li>
+						<li class="class-depth-1"><a href="Phaser.BitmapData.html">BitmapData</a></li>
+						<li class="class-depth-1"><a href="Phaser.RetroFont.html">RetroFont</a></li>
+						<li class="class-depth-1"><a href="Phaser.Button.html">Button</a></li>
+						<li class="class-depth-1"><a href="Phaser.Animation.html">Animation</a></li>
+						<li class="class-depth-1"><a href="Phaser.Graphics.html">Graphics</a></li>
+						<li class="class-depth-1"><a href="Phaser.RenderTexture.html">RenderTexture</a></li>
+						<li class="class-depth-1"><a href="Phaser.TileSprite.html">TileSprite</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Geometry<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Circle.html">Circle</a></li>
+						<li class="class-depth-1"><a href="Phaser.Ellipse.html">Ellipse</a></li>
+						<li class="class-depth-1"><a href="Phaser.Line.html">Line</a></li>
+						<li class="class-depth-1"><a href="Phaser.Matrix.html">Matrix</a></li>
+						<li class="class-depth-1"><a href="Phaser.Point.html">Point</a></li>
+						<li class="class-depth-1"><a href="Phaser.Polygon.html">Polygon</a></li>
+						<li class="class-depth-1"><a href="Phaser.Rectangle.html">Rectangle</a></li>
+						<li class="class-depth-1"><a href="Phaser.RoundedRectangle.html">Rounded Rectangle</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Physics<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.Physics.Arcade.html">Arcade Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.Arcade.Body.html">Body</a></li>
+						<li class="class-depth-2"><a href="Phaser.Weapon.html">Weapon</a></li>
+						<li class="class-depth-1"><a href="Phaser.Physics.P2.html">P2 Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.Body.html">Body</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.Spring.html">Spring</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.CollisionGroup.html">CollisionGroup</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.P2.ContactMaterial.html">ContactMaterial</a></li>
+						<li class="class-depth-1"><a href="Phaser.Physics.Ninja.html">Ninja Physics</a></li>
+						<li class="class-depth-2"><a href="Phaser.Physics.Body.html">Body</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Input<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="Phaser.InputHandler.html">Input Handler</a></li>
+						<li class="class-depth-1"><a href="Phaser.Pointer.html">Pointer</a></li>
+						<li class="class-depth-1"><a href="Phaser.DeviceButton.html">Device Button</a></li>
+						<li class="class-depth-1"><a href="Phaser.Mouse.html">Mouse</a></li>
+						<li class="class-depth-1"><a href="Phaser.Keyboard.html">Keyboard</a></li>
+						<li class="class-depth-1"><a href="Phaser.Key.html">Key</a></li>
+						<li class="class-depth-1"><a href="Phaser.KeyCode.html">Key Codes</a></li>
+						<li class="class-depth-1"><a href="Phaser.Gamepad.html">Gamepad</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-globe icon-white"></i> Community<b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+						<li class="class-depth-1"><a href="http://phaser.io">Phaser Web Site</a></li>
+						<li class="class-depth-1"><a href="https://github.com/photonstorm/phaser-ce">Phaser CE Github</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/examples">Phaser Examples</a></li>
+						<li class="class-depth-1"><a href="https://github.com/photonstorm/phaser-plugins">Phaser Plugins</a></li>
+						<li class="class-depth-1"><a href="http://www.html5gamedevs.com/forum/14-phaser/">Forum</a></li>
+						<li class="class-depth-1"><a href="http://stackoverflow.com/questions/tagged/phaser-framework">Stack Overflow</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/learn">Tutorials</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/community/newsletter">Newsletter</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/community/twitter">Twitter</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/community/slack">Slack</a></li>
+						<li class="class-depth-1"><a href="http://phaser.io/community/donate">Donate</a></li>
+						<li class="class-depth-1"><a href="https://www.codeandweb.com/texturepacker/phaser">Texture Packer</a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+
+		
+		<div class="span8">
+			
+				<div id="main">
+					
+
+
+	
+	<!-- <span class="page-title">API</span> -->
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+    <section>
+        <article class="markdown readme"><h1>Phaser CE (Community Edition)</h1><p><a href="https://github.com/photonstorm/phaser-ce">Phaser CE</a> is the Community Edition of <a href="https://github.com/photonstorm/phaser">Phaser</a>. It was started with the 2.7.0 release and since then the community has worked to continue updating it, fixing bugs and adding new features.</p>
+<div class="alert alert-info">See <a href="https://github.com/photonstorm/phaser-ce/blob/master/README.md">README</a> for a guide to getting started with Phaser CE.</div>
+
+<h1>API</h1><p><strong>Via:</strong> If a class has an entry in the <em>Via</em> column it means you can quickly access it through a local reference: e.g., you can control the camera via <code>this.camera</code> from any state, or <code>game.camera</code> if game has been globally defined.</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Game.html">Game</a></td>
+<td><code>game</code></td>
+<td>Manages booting, creating subsystems and running the logic and render loop.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.World.html">World</a></td>
+<td><code>world</code></td>
+<td>The Game World in which all Game Objects live.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Camera.html">Camera</a></td>
+<td><code>camera</code></td>
+<td>The Camera is your view into the Game World.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Stage.html">Stage</a></td>
+<td><code>stage</code></td>
+<td>The Stage is the root display object.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="gamestates"></a></p>
+<h3>Game States</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.StateManager.html">StateManager</a></td>
+<td><code>state</code></td>
+<td>Creates, manages and swaps your Game States.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.State.html">State</a></td>
+<td>-</td>
+<td>A base Game State object you can extend.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="loader"></a></p>
+<h3>Loader</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Cache.html">Cache</a></td>
+<td><code>cache</code></td>
+<td>The Cache is where all loaded assets are stored and retrieved from.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Loader.html">Loader</a></td>
+<td><code>load</code></td>
+<td>Loads all external asset types (images, audio, json, xml, txt) and adds them to the Cache. Automatically invoked by a States <code>preload</code> method.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.LoaderParser.html">LoaderParser</a></td>
+<td>-</td>
+<td>A Static Class used by the Loader to handle parsing of complex asset types.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="gamescaling"></a></p>
+<h3>Game Scaling</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.ScaleManager.html">ScaleManager</a></td>
+<td><code>scale</code></td>
+<td>Manages the sizing and scaling of your game across devices.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.FlexGrid.html">FlexGrid</a></td>
+<td><code>scale.grid</code></td>
+<td>A responsive layout grid (still in testing)</td>
+</tr>
+<tr>
+<td><a href="./Phaser.FlexLayer.html">FlexLayer</a></td>
+<td>-</td>
+<td>A responsive grid layer (still in testing)</td>
+</tr>
+</tbody>
+</table>
+<p><a name="signals"></a></p>
+<h3>Signals</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Signal.html">Signal</a></td>
+<td>Signals are Phasers internal Event system.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.SignalBinding.html">SignalBinding</a></td>
+<td>Manages which callbacks are bound to a Signal.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="plugins"></a></p>
+<h3>Plugins</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.PluginManager.html">PluginManager</a></td>
+<td><code>plugins</code></td>
+<td>Installs, updates and destroys Plugins.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Plugin.html">Plugin</a></td>
+<td>-</td>
+<td>A base Plugin object you can extend.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="gameobjects"></a></p>
+<h2>Game Objects</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.GameObjectFactory.html">GameObjectFactory</a></td>
+<td><code>add</code></td>
+<td>A helper class that can create any of the Phaser Game Objects and adds them to the Game World.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.GameObjectCreator.html">GameObjectCreator</a></td>
+<td><code>make</code></td>
+<td>A helper class that can creates and returns any Phaser Game Object.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Group.html">Group</a></td>
+<td><code>add.group</code></td>
+<td>Groups can contain multiple Game Objects and have the ability to search, sort, call, update and filter them.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.InputHandler.html">InputHandler</a></td>
+<td><code>&lt;object&gt;.input</code></td>
+<td>If a Game Object is enabled for input this class controls all input related events, including clicks and drag.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Events.html">Events</a></td>
+<td><code>&lt;object&gt;.events</code></td>
+<td>All of the Game Object level events.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Create.html">Create</a></td>
+<td><code>create</code></td>
+<td>Dynamic Sprite and Texture generation methods.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="display"></a></p>
+<h3>Display</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Sprite.html">Sprite</a></td>
+<td>A Game Object with a texture, capable of running animation, input events and physics.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Image.html">Image</a></td>
+<td>A lighter Game Object with a texture and input, but no physics or animation handlers.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.TileSprite.html">TileSprite</a></td>
+<td>A Game Object with a repeating texture that can be scrolled and scaled.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Button.html">Button</a></td>
+<td>An Image Game Object with helper methods and events to turn it into a UI Button.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.SpriteBatch.html">SpriteBatch</a></td>
+<td>A custom Sprite Batch. Can render multiple Sprites significantly faster if they share the same texture.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Rope.html">Rope</a></td>
+<td>A jointed Game Object with a strip-based texture.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="graphics"></a></p>
+<h3>Graphics</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Graphics.html">Graphics</a></td>
+<td>Allows you to draw primitive shapes (lines, rects, circles), setting color, stroke and fills.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.BitmapData.html">BitmapData</a></td>
+<td>Provides a powerful interface to a blank Canvas object. Can be used as a Sprite texture.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.RenderTexture.html">RenderTexture</a></td>
+<td>A special kind of texture you can draw Sprites to extremely quickly.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="text"></a></p>
+<h3>Text</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Text.html">Text</a></td>
+<td>Displays text using system fonts or Web Fonts, with optional fills, shadows and strokes.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.BitmapText.html">BitmapText</a></td>
+<td>A texture based text object that uses a Bitmap Font file.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.RetroFont.html">RetroFont</a></td>
+<td>Similar to a BitmapText object but uses a classic sprite sheet. Each character is a fixed-width.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="animation"></a></p>
+<h3>Animation</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.AnimationManager.html">AnimationManager</a></td>
+<td><code>sprite.animations</code></td>
+<td>Adds, plays and updates animations on Sprite Game Objects.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Animation.html">Animation</a></td>
+<td>-</td>
+<td>The base Animation object that the Animation Manager creates.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.AnimationParser.html">AnimationParser</a></td>
+<td>-</td>
+<td>Used internally by the Phaser Loader to parse animation data from external files.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.FrameData.html">FrameData</a></td>
+<td>-</td>
+<td>A collection of Frame objects that comprise an animation.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Frame.html">Frame</a></td>
+<td>-</td>
+<td>A single Frame of an Animation. Stored inside of a FrameData object.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="geometry"></a></p>
+<h2>Geometry</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Circle.html">Circle</a></td>
+<td>A Circle object consisting of a position and diameter.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Ellipse.html">Ellipse</a></td>
+<td>An Ellipse object consisting of a position, width and height.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Line.html">Line</a></td>
+<td>A Line object consisting of two points at the start and end of the Line.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Point.html">Point</a></td>
+<td>A Point object consisting of an x and y position.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Polygon.html">Polygon</a></td>
+<td>A Polygon object consisting of a series of Points.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Rectangle.html">Rectangle</a></td>
+<td>A Rectangle object consisting of an x, y, width and height.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.RoundedRectangle.html">RoundedRectangle</a></td>
+<td>A Rectangle object consisting of an x, y, width, height and corner radius.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="time"></a></p>
+<h2>Time</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Time.html">Time</a></td>
+<td><code>time</code></td>
+<td>The core internal clock on which all Phaser time related operations rely.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Timer.html">Timer</a></td>
+<td><code>time.create</code></td>
+<td>A custom Timer that contains one or more TimerEvents. Can be used either once or be set to repeat.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.TimerEvent.html">TimerEvent</a></td>
+<td><code>time.add</code></td>
+<td>A single time related event object. Belongs to a Phaser.Timer.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="tilemaps"></a></p>
+<h2>Tilemaps</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Tilemap.html">Tilemap</a></td>
+<td>A Tilemap consists of one or more TilemapLayers and associated tile data. Contains methods for tile data manipulation and TilemapLayer generation.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.TilemapLayer.html">TilemapLayer</a></td>
+<td>A single layer within a Tilemap. Extends from Phaser.Sprite and is responsible for rendering itself.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Tileset.html">Tileset</a></td>
+<td>An object containing a texture and data used for rendering tiles by a TilemapLayer.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Tile.html">Tile</a></td>
+<td>A single Tile object with related properties. One of these exists for every tile in a map.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.TilemapParser.html">TilemapParser</a></td>
+<td>A Static class used to parse externally loaded map data. Typically called directly by Phaser.Loader.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="math"></a></p>
+<h2>Math</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Math.html">Math</a></td>
+<td><code>math</code></td>
+<td>Contains lots of math related helper methods including fuzzy logic and interpolation.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.QuadTree.html">QuadTree</a></td>
+<td>-</td>
+<td>A stand-alone QuadTree implementation. Used by Arcade Physics but can also be used directly.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.RandomDataGenerator.html">RandomDataGenerator</a></td>
+<td><code>rnd</code></td>
+<td>A seedable repeatable random data generator.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="network"></a></p>
+<h2>Network</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Net.html">Net</a></td>
+<td><code>net</code></td>
+<td>Browser URL and query string related methods.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="particles"></a></p>
+<h2>Particles</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Particles.html">Particles</a></td>
+<td><code>particles</code></td>
+<td>The Phaser Particle Manager. Called during the game loop and updates any associated Particle Emitters.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Particles.Arcade.Emitter.html">Emitter</a></td>
+<td><code>add.emitter</code></td>
+<td>An Arcade Physics based Particle Emitter.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Particle.html">Particle</a></td>
+<td>-</td>
+<td>A single Particle object as emitted by the Emitter. Extends Phaser.Sprite.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="physics"></a></p>
+<h2>Physics</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Physics.html">Physics</a></td>
+<td><code>physics</code></td>
+<td>The core Physics Manager. Provides access to all of the physics sub-systems.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="arcadephysics"></a></p>
+<h3>Arcade Physics</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Physics.Arcade.html">Arcade</a></td>
+<td><code>physics.arcade</code></td>
+<td>The Arcade Physics handler. Contains collision, overlap and movement related methods.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.Arcade.Body.html">Body</a></td>
+<td><code>sprite.body</code></td>
+<td>An Arcade Physics Body. Contains velocity, acceleration, drag and other related properties.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Weapon.html">Weapon</a></td>
+<td><code>game.add.weapon</code></td>
+<td>An Arcade Physics powered Weapon plugin, for easy bullet pool management.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ninjaphysics"></a></p>
+<h3>Ninja Physics</h3><p>Ninja Physics is not bundled in Phaser by default. Please see the README custom build details section.</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Physics.Ninja.html">Ninja</a></td>
+<td><code>physics.ninja</code></td>
+<td>The Ninja Physics handler. Contains collision, overlap and movement related methods.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.Ninja.Body.html">Body</a></td>
+<td><code>sprite.body</code></td>
+<td>A Ninja Physics Body. Contains velocity, acceleration, drag and other related properties.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.Ninja.AABB.html">AABB</a></td>
+<td>-</td>
+<td>An AABB Ninja Physics Body type.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.Ninja.Circle.html">Circle</a></td>
+<td>-</td>
+<td>A Circle Ninja Physics Body type.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.Ninja.Tile.html">Tile</a></td>
+<td>-</td>
+<td>A Tile Ninja Physics Body type.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="p2physics"></a></p>
+<h3>P2 Physics</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Physics.P2.html">P2</a></td>
+<td><code>physics.p2</code></td>
+<td>The P2 Physics World. Contains collision, overlap and movement related methods.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.Body.html">Body</a></td>
+<td><code>sprite.body</code></td>
+<td>A P2 Physics Body. Contains velocity, acceleration, drag and other related properties.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.BodyDebug.html">BodyDebug</a></td>
+<td>-</td>
+<td>A Debug specific version of a P2 Body object. Renders out its shape for visual debugging.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.Material.html">Material</a></td>
+<td>-</td>
+<td>A P2 Material used for world responses, such as friction and restitution.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.ContactMaterial.html">ContactMaterial</a></td>
+<td>-</td>
+<td>A P2 Contact Material used for contact responses.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.CollisionGroup.html">CollisionGroup</a></td>
+<td>-</td>
+<td>A P2 Collision Group.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.FixtureList.html">FixtureList</a></td>
+<td>-</td>
+<td>The P2 Fixture List handler.</td>
+</tr>
+<tr>
+<td><strong>Constraints:</strong></td>
+<td>-</td>
+<td><a href="./Phaser.Physics.P2.DistanceConstraint.html">Distance Constraint</a>, <a href="./Phaser.Physics.P2.GearConstraint.html">GearConstraint</a>, <a href="./Phaser.Physics.P2.LockConstraint.html">LockConstraint</a>, <a href="./Phaser.Physics.P2.PrismaticConstraint.html">PrismaticConstraint</a>, <a href="./Phaser.Physics.P2.RevoluteConstraint.html">RevoluteConstraint</a></td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.PointProxy.html">PointProxy</a></td>
+<td>-</td>
+<td>Responsible for proxing Phaser Game World to P2 Physics values.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.InversePointProxy.html">InversePointProxy</a></td>
+<td>-</td>
+<td>Responsible for proxing Phaser Game World to inversed P2 Physics values.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.Spring.html">Spring</a></td>
+<td>-</td>
+<td>A P2 Spring object.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Physics.P2.RotationalSpring.html">RotationalSpring</a></td>
+<td>-</td>
+<td>A P2 Rotational Spring object.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="input"></a></p>
+<h2>Input</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Input.html">Input</a></td>
+<td><code>input</code></td>
+<td>The Input Manager. Responsible for handling all Input sub-systems. Also looks after Input enabled Game Objects.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Pointer.html">Pointer</a></td>
+<td><code>input.pointer</code></td>
+<td>Pointers encapsulate all mouse or touch related input, regardless of how it was generated. On multi-touch systems more than one Pointer can be active at any one time. In Input related events a reference to the corresponding Pointer is passed.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.DeviceButton.html">DeviceButton</a></td>
+<td><code>pointer.leftButton</code>, …</td>
+<td>Represents a button on a mouse or pen/stylus.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Keyboard.html">Keyboard</a></td>
+<td><code>input.keyboard</code></td>
+<td>The Keyboard input handler. Listens for device related events. Can also create Key objects.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Key.html">Key</a></td>
+<td>-</td>
+<td>A Key object is responsible for listening to a specific Key. Created by the Keyboard class.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.KeyCode.html">KeyCode</a></td>
+<td>-</td>
+<td>The KeyCode consts are used when creating new Key objects.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Mouse.html">Mouse</a></td>
+<td><code>input.mouse</code></td>
+<td>A Mouse event handler. Listens for device related events and passes them on to the active Pointer.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.MSPointer.html">MSPointer</a></td>
+<td><code>input.mspointer</code></td>
+<td>An MSPointer event handler. Listens for device related events and passes them on to the active Pointer.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Touch.html">Touch</a></td>
+<td><code>input.touch</code></td>
+<td>A Touch event handler. Listens for device related events and passes them on to the active Pointer.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="gamepads"></a></p>
+<h3>Gamepads</h3><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Gamepad.html">Gamepad</a></td>
+<td><code>input.gamepad</code></td>
+<td>The Gamepad Manager looks after all connected Gamepads to the device. Creates SinglePad instances.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.SinglePad.html">SinglePad</a></td>
+<td><code>input.gamepad.pad&lt;1,4&gt;</code></td>
+<td>Represents a single connected gamepad.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.DeviceButton.html">DeviceButton</a></td>
+<td>-</td>
+<td>Represents a button on a SinglePad instance.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="tweens"></a></p>
+<h2>Tweens</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.TweenManager.html">TweenManager</a></td>
+<td><code>tweens</code></td>
+<td>The Tween Manager creates, updates and destroys all active tweens.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Tween.html">Tween</a></td>
+<td><code>add.tween</code></td>
+<td>A Tween object. Consists of TweenData objects that represent the tween and any child tweens.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.TweenData.html">TweenData</a></td>
+<td>-</td>
+<td>A TweenData object contains all the information related to a tween. Created by and belongs to a Phaser.Tween object.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Easing.html">Easing</a></td>
+<td>-</td>
+<td>A static class containing all of the easing functions available to Tweens.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="sound"></a></p>
+<h2>Sound</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.SoundManager.html">SoundManager</a></td>
+<td><code>sound</code></td>
+<td>The Sound Manager controls all Sound objects and can play, loop, fade and stop Sounds.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Sound.html">Sound</a></td>
+<td><code>add.audio</code>, <code>add.sound</code></td>
+<td>A Sound object. Can be played, paused and stopped directly, and have its volume adjusted.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.AudioSprite.html">AudioSprite</a></td>
+<td><code>add.audioSprite</code></td>
+<td>An Audio Sprite is a Sound object with related marker data representing sections of the audio.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="system"></a></p>
+<h2>System</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.Canvas.html">Canvas</a></td>
+<td>-</td>
+<td>A static class containing Canvas creation and manipulation methods. Such as adding to the dom, setting touch actions, smoothing and image rendering.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Device.html">Device</a></td>
+<td><code>game.device</code></td>
+<td>The Device class checks system capabilities and settings on boot and stores them for later access.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.DOM.html">DOM</a></td>
+<td>-</td>
+<td>A static class containing DOM specific methods including offset handling, viewport calibration and bounds checks.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.RequestAnimationFrame.html">RequestAnimationFrame</a></td>
+<td><code>game.raf</code></td>
+<td>Abstracts away the use of RAF or setTimeOut for the core game update loop.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="utils"></a></p>
+<h2>Utils</h2><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Via</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./Phaser.ArraySet.html">ArraySet</a></td>
+<td>-</td>
+<td>ArraySet is a Set data structure (items must be unique within the set) that also maintains order.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.ArrayUtils.html">ArrayUtils</a></td>
+<td>-</td>
+<td>Array specific methods such as getRandomItem, shuffle, transposeMatrix, rotate and numberArray.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Color.html">Color</a></td>
+<td>-</td>
+<td>Phaser.Color is a set of static methods that assist in color manipulation and conversion.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Utils.Debug.html">Debug</a></td>
+<td><code>game.debug</code></td>
+<td>A collection of methods for displaying debug information about game objects.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.LinkedList.html">LinkedList</a></td>
+<td>-</td>
+<td>A basic Linked List data structure.</td>
+</tr>
+<tr>
+<td><a href="./Phaser.Utils.html">Utils</a></td>
+<td>-</td>
+<td>Utility methods for Object and String inspection and modification. Including getProperty, pad, isPlainObject, extend and mixin.</td>
+</tr>
+</tbody>
+</table></article>
+    </section>
+
+
+
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_textures_Texture.js.html">pixi/textures/Texture.js</a>, <a href="src_pixi_textures_Texture.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_WebGLRenderer.js.html">pixi/renderers/webgl/WebGLRenderer.js</a>, <a href="src_pixi_renderers_webgl_WebGLRenderer.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLStencilManager.js.html">pixi/renderers/webgl/utils/WebGLStencilManager.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLStencilManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLShaderUtils.js.html">pixi/renderers/webgl/utils/WebGLShaderUtils.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLShaderUtils.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_display_Sprite.js.html">pixi/display/Sprite.js</a>, <a href="src_pixi_display_Sprite.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_canvas_CanvasGraphics.js.html">pixi/renderers/canvas/CanvasGraphics.js</a>, <a href="src_pixi_renderers_canvas_CanvasGraphics.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLShaderManager.js.html">pixi/renderers/webgl/utils/WebGLShaderManager.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLShaderManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLMaskManager.js.html">pixi/renderers/webgl/utils/WebGLMaskManager.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLMaskManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLGraphics.js.html">pixi/renderers/webgl/utils/WebGLGraphics.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLGraphics.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLFilterManager.js.html">pixi/renderers/webgl/utils/WebGLFilterManager.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLFilterManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves
+
+Big thanks to the very clever Matt DesLauriers &lt;mattdesl> https://github.com/mattdesl/
+for creating the original pixi version!
+
+Heavily inspired by LibGDX's WebGLSpriteBatch:
+https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g2d/WebGLSpriteBatch.java</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLFastSpriteBatch.js.html">pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLFastSpriteBatch.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_WebGLBlendModeManager.js.html">pixi/renderers/webgl/utils/WebGLBlendModeManager.js</a>, <a href="src_pixi_renderers_webgl_utils_WebGLBlendModeManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_canvas_CanvasRenderer.js.html">pixi/renderers/canvas/CanvasRenderer.js</a>, <a href="src_pixi_renderers_canvas_CanvasRenderer.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_utils_FilterTexture.js.html">pixi/renderers/webgl/utils/FilterTexture.js</a>, <a href="src_pixi_renderers_webgl_utils_FilterTexture.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_shaders_StripShader.js.html">pixi/renderers/webgl/shaders/StripShader.js</a>, <a href="src_pixi_renderers_webgl_shaders_StripShader.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_shaders_PrimitiveShader.js.html">pixi/renderers/webgl/shaders/PrimitiveShader.js</a>, <a href="src_pixi_renderers_webgl_shaders_PrimitiveShader.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Richard Davey http://www.photonstorm.com @photonstorm</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_shaders_PixiShader.js.html">pixi/renderers/webgl/shaders/PixiShader.js</a>, <a href="src_pixi_renderers_webgl_shaders_PixiShader.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_shaders_PixiFastShader.js.html">pixi/renderers/webgl/shaders/PixiFastShader.js</a>, <a href="src_pixi_renderers_webgl_shaders_PixiFastShader.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_display_DisplayObjectContainer.js.html">pixi/display/DisplayObjectContainer.js</a>, <a href="src_pixi_display_DisplayObjectContainer.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_webgl_shaders_ComplexPrimitiveShader.js.html">pixi/renderers/webgl/shaders/ComplexPrimitiveShader.js</a>, <a href="src_pixi_renderers_webgl_shaders_ComplexPrimitiveShader.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_canvas_utils_CanvasBuffer.js.html">pixi/renderers/canvas/utils/CanvasBuffer.js</a>, <a href="src_pixi_renderers_canvas_utils_CanvasBuffer.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_canvas_utils_CanvasMaskManager.js.html">pixi/renderers/canvas/utils/CanvasMaskManager.js</a>, <a href="src_pixi_renderers_canvas_utils_CanvasMaskManager.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_renderers_canvas_utils_CanvasTinter.js.html">pixi/renderers/canvas/utils/CanvasTinter.js</a>, <a href="src_pixi_renderers_canvas_utils_CanvasTinter.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li><a href="mailto:rich@photonstorm.com">Richard Davey</a></li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_display_DisplayObject.js.html">pixi/display/DisplayObject.js</a>, <a href="src_pixi_display_DisplayObject.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_Intro.js.html">pixi/Intro.js</a>, <a href="src_pixi_Intro.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+
+	<!--<h1 class="page-title">API</h1>-->
+<section>
+
+<header>
+    <h2>
+    docs/pixi-jsdoc.js
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+
+        
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Mat Groves http://matgroves.com/ @Doormat23</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source -
+    <a href="src_pixi_textures_BaseTexture.js.html">pixi/textures/BaseTexture.js</a>, <a href="src_pixi_textures_BaseTexture.js.html#sunlight-1-line-1">line 1</a>
+    </dt>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+				</div>
+
+				<div class="clearfix"></div>
+				<footer>
+					
+					
+		<span class="copyright">
+		Phaser Copyright © 2012-2016 Photon Storm Ltd.
+		</span>
+					<br />
+					
+		<span class="jsdoc-message">
+		Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.3</a>
+		on Fri Jul 21 2017 07:19:16 GMT-0700 (PDT) using the <a href="https://github.com/terryweiss/docstrap">DocStrap template</a>.
+		</span>
+				</footer>
+			</div>
+
+			
+			<div class="span3">
+				<div id="toc"></div>
+			</div>
+			
+			<br clear="both">
+		</div>
+
+	</div>
+	<script src="scripts/sunlight.js"></script>
+	<script src="scripts/sunlight.javascript.js"></script>
+	<script src="scripts/sunlight-plugin.doclinks.js"></script>
+	<script src="scripts/sunlight-plugin.linenumbers.js"></script>
+	<script src="scripts/sunlight-plugin.menu.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.scrollTo.js"></script>
+	<script src="scripts/jquery.localScroll.js"></script>
+	<script src="scripts/bootstrap-dropdown.js"></script>
+	<script src="scripts/toc.js"></script>
+
+	<script>  Sunlight.highlightAll({lineNumbers:true,  showMenu: true, enableDoclinks :true}); </script>
+
+	<script>
+		$( function () {
+			$( "#toc" ).toc( {
+				anchorName  : function(i, heading, prefix) {
+					return $(heading).attr("id") || ( prefix + i );
+				},
+				selectors   : "h1,h2,h3,h4",
+				showAndHide : false,
+				scrollTo    : 60
+			} );
+			$( "#toc>ul" ).addClass( "nav nav-pills nav-stacked" );
+			$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+
+		} );
+	</script>
+
+	
+
+</body>
+</html>
